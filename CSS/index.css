@@ -156,6 +156,7 @@ h2 {
 
 .container {
     margin-right: 70px;
+    position:fixed;
 }
 
 .container li {
@@ -417,7 +418,8 @@ img[alt="flèche"]:hover {
         flex-direction: row;
         justify-content: space-around;
     }
-
+    .countainer{
+        position:static;}
     .presentation {
         display: flex;
         flex-direction: column;
@@ -513,7 +515,8 @@ img[alt="flèche"]:hover {
     .countainer li {
         flex-direction: column;
     }
-
+    .countainer{
+        position:static}
     .presentation {
         display: flex;
         flex-direction: column;
