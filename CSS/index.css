@@ -1,0 +1,648 @@
+header {
+    background-image: url("../Images/pexels-divinetechygirl-1181330.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.info {
+    display: inline-block;
+    justify-content: space-around
+}
+
+.identite {
+    font-size: 2.5em;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.entete {
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.jeune {
+    font-weight: bolder;
+}
+
+strong,
+span {
+    color: #fceb01c5;
+}
+
+a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a[href="#projet"]:hover {
+    font-weight: bolder;
+}
+
+img[class="maphoto"] {
+    width: 400px;
+    border-radius: 60%;
+    border: solid 4px;
+    border-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+img[class="maphoto"]:hover {
+    border-color: rgb(78, 78, 78);
+    transform: scale(1.05);
+}
+
+body {
+    background: linear-gradient(to right, #18142e, #2c0824);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+P {
+    font-size: 1.5em;
+}
+
+.maphoto {
+    display: block;
+    margin: auto;
+}
+
+p[ class="mapersonne"] {
+    font-size: 1.5em;
+    padding: 4px;
+}
+
+.mapersonne {
+    text-align: justify;
+    margin: auto;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+ul li a img {
+    padding: 4px;
+    background-color: #6e6d6e;
+    border: solid 1px;
+    border-radius: 50%
+}
+
+ul li a img:hover {
+    background-color: white;
+}
+
+h2 {
+    display: inline-block;
+    border: solid 1px;
+    padding: 4px;
+    background-color: white;
+    color: black;
+    border-radius: 0px 8px 8px 0px;
+}
+
+@font-face {
+    font-family: "lobsterTwo-Italic";
+    src: url("./polices/LobsterTwo-Italic.ttf");
+}
+
+.p1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../polices/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+body {
+    font-family: "inter";
+}
+
+@font-face {
+    font-family: "monserrat";
+    src: url("../polices/Montserrat-VariableFont_wght.ttf")
+}
+
+h1,
+h2,
+h3 {
+    font-family: "monserrat";
+
+}
+
+h2 {
+    font-size: 2em;
+
+}
+
+
+.container {
+    margin-right: 70px;
+}
+
+.container li {
+    list-style: none;
+    display: inline-block;
+}
+
+h1[class=accueil] {
+    padding: 10px;
+    border: solid 1px;
+    margin: 0px;
+    font-size: 2em;
+    font-weight: bolder;
+    display: inline-block;
+
+}
+
+.barre {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.competence {
+    width: 300px;
+    margin-right: 20px auto;
+    border: solid 1px;
+    border-color: #2b0b38;
+    padding: 4px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #2b0b38;
+
+}
+
+.competence:hover {
+    background-color: #460b46;
+    color: #ffffff;
+}
+
+article {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.HTML {
+    width: 80%;
+    background-color: #1d0d42
+}
+
+.CSS {
+    width: 70%;
+    background-color: #1d0d42
+}
+
+.algorithme {
+    width: 60%;
+    background-color: #1d0d42
+}
+
+.réseau {
+    width: 90%;
+    background-color: #1d0d42
+}
+
+
+.LangageC {
+    width: 30%;
+    background-color: #1d0d42
+}
+
+
+.adressage {
+    width: 80%;
+    background-color: #1d0d42
+}
+
+.vscode {
+    width: 90%;
+    background-color: #1d0d42
+}
+
+.systeme {
+    width: 70%;
+    background-color: #1d0d42
+}
+
+.projets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.page {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: #2b0b38;
+    padding-left: auto;
+    margin: 10px;
+}
+
+.page:hover {
+    background-color: #460b46;
+}
+
+p>h3 {
+    color: #e4e715
+}
+
+.diplome,
+.formation {
+    flex: 1;
+    min-width: 300px;
+    line-height: 1.6;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 0px 0px 15px 15px;
+}
+
+.etudes {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+time {
+    display: inline-block;
+    background-color: #2b0b38;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+time::before {
+    content: "●";
+    display: inline-block;
+}
+
+legend {
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    color: #2a2450;
+    font-weight: bold
+}
+
+form {
+    margin: auto;
+    width: 60%
+}
+
+fieldset {
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+input,
+select {
+    margin-bottom: 10px;
+}
+
+input {
+    border: solid 2px;
+    border-radius: 5px;
+    height: 30px;
+    border-color: #192b66;
+    width: 60%;
+
+}
+
+input:focus {
+    background-color: #a7a5a5;
+}
+
+textarea {
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: #153ce7;
+    width: 60%;
+}
+
+textarea:focus {
+    background-color: #a7a5a5;
+}
+
+select {
+    width: 300px;
+    text-align: center;
+    height: 30px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    border-top: solid 2px;
+    border-color: #d2e00e;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+
+}
+
+img[alt="logo"] {
+    border: solid 1px;
+    border-radius: 50%;
+}
+
+img[alt="flèche"] {
+    background-color: white;
+    border: solid 1px;
+    border-radius: 50%;
+    transition: all 0.3 ease;
+}
+
+img[alt="flèche"]:hover {
+    background-color: #929191;
+    transform: scale(1.2)
+}
+
+@media (max-width: 480px) {
+    .presentation {
+        flex-direction: column;
+    }
+
+    img[class="maphoto"] {
+        margin: 20px auto;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        grid-template-columns: 1fr;
+    }
+
+    .countainer li {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div>h1 {
+        font-size: 6vw;
+        line-height: 1;
+        text-align: center;
+    }
+
+    p1 {
+        font-size: 5vw;
+
+    }
+
+    .entete {
+        font-size: 4vw;
+    }
+
+    .mapersonne {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    p,
+    h1,
+    h2,
+    h3 {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto;
+        max-width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100%;
+
+    }
+
+    .page {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .projets {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    fieldset>h2 {
+        font-size: 5vw;
+    }
+
+    form {
+        margin: auto;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .competence {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .presentation {
+        flex-direction: column;
+    }
+
+    img[class="maphoto"] {
+        margin: 20px auto;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        grid-template-columns: 1fr;
+    }
+
+    .countainer li {
+        flex-direction: column;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1rem;
+        line-height: 1;
+        text-align: center;
+    }
+
+    p1 {
+        font-size: 0.8rem;
+
+    }
+
+    p,
+    h1,
+    h2,
+    h3 {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto;
+        max-width: 100%;
+        padding-right: 10px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100%;
+
+    }
+
+    form {
+        margin: auto;
+        width: 90%;
+    }
+
+    .projets {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .competence {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .presentation {
+        flex-direction: column;
+    }
+
+    .container {
+        display: ;
+    }
+
+
+    img[class="maphoto"] {
+        margin: 20px auto;
+        display: block;
+        width: 100%;
+    }
+
+    p,
+    h1,
+    h2,
+    h3 {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto;
+        max-width: 100%;
+        padding-right: 10px;
+    }
+
+    .p1 {
+        font-size: 1rem;
+    }
+
+    form {
+        width: 500px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        line-height: 1;
+        text-align: center;
+    }
+
+    article {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body {
+        font-size: 0.9rem;
+    }
+
+    .countainer li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projets {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .competence {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .presentation {
+        flex-direction: row;
+    }
+
+    .container {
+        display: block;
+    }
+
+}
