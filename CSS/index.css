@@ -513,7 +513,7 @@ img[alt="flèche"]:hover {
         flex-direction: column;
     }
     .countainer{
-        position:static}
+        position:static;}
     .presentation {
         display: flex;
         flex-direction: column;
@@ -643,6 +643,7 @@ img[alt="flèche"]:hover {
 
     .container {
         display: block;
+        
     }
 
 }
