@@ -252,8 +252,9 @@ article {
     grid-template-columns: 1fr 1fr;
 
 }
-p>a{
-    color:#e4e715}
+.page a{
+    color:#fceb01c5;
+}
 .page {
     border: solid 1px;
     border-radius: 5px;
